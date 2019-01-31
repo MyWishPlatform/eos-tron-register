@@ -1,0 +1,54 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Thu Jan 31 13:54:01 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "mapping",
+            "base": "",
+            "fields": [
+                {
+                    "name": "eos_account",
+                    "type": "name"
+                },
+                {
+                    "name": "tron_address",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "name": "put",
+            "base": "",
+            "fields": [
+                {
+                    "name": "eos_account",
+                    "type": "name"
+                },
+                {
+                    "name": "tron_address",
+                    "type": "string"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "put",
+            "type": "put",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "mappings",
+            "type": "mapping",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}
